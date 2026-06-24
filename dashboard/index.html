@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fahan Zulfi — Portofolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="lang-bar">
+  <button class="lang-btn active" data-lang="id">ID</button>
+  <span class="lang-divider">/</span>
+  <button class="lang-btn" data-lang="en">EN</button>
+</div>
+
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#home" class="nav-logo">
+      <span class="nav-logo-mark">F</span>
+      <span class="nav-logo-text">fahan</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Buka menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link active" data-link data-i18n="nav.home">Home</a>
+      <a href="#about" class="nav-link" data-link data-i18n="nav.about">Tentang</a>
+      <a href="#projects" class="nav-link" data-link data-i18n="nav.projects">Proyek</a>
+      <a href="#contact" class="nav-link" data-link data-i18n="nav.contact">Kontak</a>
+    </nav>
+    <a href="#contact" class="nav-cta" data-i18n="nav.cta">Mari Bicara</a>
+  </div>
+</header>
+
+<main>
+
+  <section id="home" class="hero">
+    <div class="hero-visual">
+      <div class="hero-layer hero-layer-bg">
+        <img src="../assets/download (2).jpg" alt="" aria-hidden="true">
+      </div>
+      <div class="hero-glow"></div>
+      <div class="hero-layer hero-layer-fg">
+        <img src="../assets/download__2_-removebg-preview.png" alt="Foto Fahan Zulfi">
+      </div>
+    </div>
+
+    <div class="hero-content">
+      <h1 class="hero-title"><span class="text-blur" data-i18n="hero.title">Welcome<br>To My Website</span></h1>
+      <p class="hero-sub" data-i18n="hero.sub">Saya Fahan, membangun sebuah program yang clean, cepat, dan terasa hidup — dari ide kasar sampai jadi sesuatu yang orang benar-benar pakai.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">
+          <span data-i18n="hero.cta1">Lihat Proyek</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#contact" class="btn btn-ghost" data-i18n="hero.cta2">Hubungi Saya</a>
+      </div>
+    </div>
+
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="about-inner">
+
+      <div class="about-photo-wrap">
+        <div class="about-photo-frame">
+          <img src="../assets/5.jpeg" alt="Foto Fahan Zulfi" class="about-photo">
+        </div>
+        <div class="about-tag" data-i18n="about.tag">Berbasis di Jember, ID</div>
+      </div>
+
+      <div class="about-text">
+        <p class="section-eyebrow" data-i18n="about.eyebrow">Tentang Saya</p>
+        <h2 class="section-title" data-i18n="about.title">AS FAHAN ZULFI</h2>
+        <p class="about-paragraph" data-i18n="about.p1">Saya developer yang senang merapikan hal-hal berantakan jadi antarmuka yang masuk akal. Lima tahun terakhir saya habiskan untuk membangun website, dashboard, dan eksperimen kecil yang kadang berakhir jadi produk sungguhan.</p>
+        <p class="about-paragraph" data-i18n="about.p2">Di luar coding, saya mengoleksi referensi desain lama, suka tipografi yang berani, dan percaya kalau detail kecil — jarak antar huruf, transisi 0.2 detik — adalah yang membedakan produk biasa dari yang diingat orang.</p>
+        <p class="about-paragraph" data-i18n="about.p3">Saya merupakan siswa dari <strong>SMK PGRI 05 Jember</strong>, tempat saya mengasah kemampuan di bidang teknologi dan pengembangan web.</p>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-number">2+</span>
+            <span class="stat-label" data-i18n="about.stat1">Tahun Pengalaman</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">30+</span>
+            <span class="stat-label" data-i18n="about.stat2">Proyek Selesai</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">12</span>
+            <span class="stat-label" data-i18n="about.stat3">Klien Puas</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">18</span>
+            <span class="stat-label" data-i18n="about.stat3">Umur</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">22.02.08</span>
+            <span class="stat-label" data-i18n="about.stat3">Tanggal lahir</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills-section">
+        <p class="section-eyebrow" data-i18n="skills.eyebrow">Keahlian Teknis</p>
+        <h2 class="section-title" data-i18n="skills.title">Bahasa & Framework</h2>
+        <div class="skills-grid">
+
+          <div class="skill-card">
+            <div class="skill-icon skill-icon-html">
+              <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 3l1.8 20.4L16 26l9.2-2.6L27 3H5z" fill="#E34F26"/><path d="M16 24.4l7.4-2.1 1.5-17.3H16v19.4z" fill="#EF652A"/><path d="M16 13.4h-3.8l-.3-3.4H16V6.6H8.4l.1 1.4.9 10H16v-4.6zm0 7.2l-.1.1-3.1-.8-.2-2.3H9.2l.4 4.6 6.3 1.7.1-.1v-3.2z" fill="#fff"/><path d="M16 13.4v4.6h3.5l-.3 3.3-3.2.8v3.2l6.3-1.7.1-.9.7-7.9.1-1.4H16zm0-6.8v3.4h7.1l.1-1.4.1-2H16z" fill="#EBEBEB"/></svg>
+            </div>
+            <span class="skill-name">HTML</span>
+            <span class="skill-level" data-i18n="skill.expert">Expert</span>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon skill-icon-css">
+              <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 3l1.8 20.4L16 26l9.2-2.6L27 3H5z" fill="#1572B6"/><path d="M16 24.4l7.4-2.1 1.5-17.3H16v19.4z" fill="#33A9DC"/><path d="M16 13.4H11l.3 3.4H16v-3.4zm0-6.8H8.4l.3 3.4H16V6.6z" fill="#fff"/><path d="M16 13.4v3.4h3.2l-.3 3.3-3 .8v3.2l6.3-1.7.1-.9.7-7.9.1-1.4H16zm0-6.8v3.4h7.1l.1-1.4.1-2H16z" fill="#EBEBEB"/></svg>
+            </div>
+            <span class="skill-name">CSS</span>
+            <span class="skill-level" data-i18n="skill.expert">Expert</span>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon skill-icon-js">
+              <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="4" fill="#F7DF1E"/><path d="M19.5 24.5c.7 1.2 1.6 2 3.2 2 1.3 0 2.2-.7 2.2-1.6 0-1.1-.9-1.5-2.3-2.1l-.8-.3c-2.3-1-3.8-2.2-3.8-4.8 0-2.4 1.8-4.2 4.6-4.2 2 0 3.4.7 4.4 2.5l-2.4 1.6c-.5-1-1.1-1.4-2-1.4-.9 0-1.5.6-1.5 1.4 0 1 .6 1.4 2 2l.8.3c2.7 1.2 4.2 2.3 4.2 5 0 2.8-2.2 4.5-5.2 4.5-2.9 0-4.8-1.4-5.7-3.2l2.3-1.7zm-10.2.3c.5.9 1 1.7 2.1 1.7.9 0 1.5-.4 1.5-1.8V13.6h3V24.8c0 2.9-1.7 4.2-4.2 4.2-2.2 0-3.5-1.2-4.2-2.6l1.8-1.6z" fill="#222"/></svg>
+            </div>
+            <span class="skill-name">JavaScript</span>
+            <span class="skill-level" data-i18n="skill.advanced">Advanced</span>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon skill-icon-dart">
+              <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M7.8 20.2L3 15.4l4.4-11.1 11.4-.3L7.8 20.2z" fill="#01DCFF"/><path d="M7.8 20.2l11-16.2 9.9 9.9-12.1 12.1H7.8v-5.8z" fill="#01DCFF"/><path d="M7.8 26H16.6l2.6 2.6-3.6 1H7.8V26z" fill="#00C4FF"/><path d="M28.7 13.9l-2.6-2.6-7.3 14.7 2.6 2.6 7.3-14.7z" fill="#00589C"/><path d="M16.6 26l2.2 2.2 9.9-14.3-2.6-2.6-9.5 14.7z" fill="#0075C9"/><path d="M7.8 4.3l4 4L3 15.4l4.8-11.1z" fill="#00C4FF"/></svg>
+            </div>
+            <span class="skill-name">Dart</span>
+            <span class="skill-level" data-i18n="skill.intermediate">Intermediate</span>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon skill-icon-php">
+              <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><ellipse cx="16" cy="16" rx="15" ry="9" fill="#8892BF"/><path d="M9 20l1-5H8.5l.2-1H12c1.2 0 2 .5 1.8 1.7-.2 1.4-1.2 2.3-2.6 2.3H10l-.3 2H9zm1.2-3h.8c.7 0 1.1-.3 1.2-.9.1-.5-.2-.7-.8-.7h-.8l-.4 1.6zm4.3 3l1-5h1l-.2 1c.4-.7 1-.9 1.6-.9.9 0 1.3.5 1.2 1.3l-.5 2.6h-1l.4-2.3c.1-.5 0-.8-.5-.8-.6 0-1 .4-1.1 1.1l-.4 2h-1.5zm5.5 0l1-5h1.5l-.2 1h.8c1.2 0 1.8.6 1.6 1.7-.2 1.4-1.2 2.3-2.5 2.3H21zm1.2-1h.8c.7 0 1.1-.3 1.2-.9.1-.5-.2-.7-.8-.7h-.8l-.4 1.6z" fill="#fff"/></svg>
+            </div>
+            <span class="skill-name">PHP</span>
+            <span class="skill-level" data-i18n="skill.advanced">Advanced</span>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon skill-icon-laravel">
+              <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M28.4 8.1c.1.1.1.2.1.3v7.4c0 .2-.1.4-.3.5l-6.2 3.6v7.1c0 .2-.1.4-.3.5l-12.9 7.4c0 .1-.1.1-.1.1h-.1c-.1 0-.2 0-.2-.1L1.5 27.5c-.2-.1-.3-.3-.3-.5V6.3c0-.1 0-.2.1-.3 0-.1.1-.1.1-.2L4.9 3.9h.1c.1-.1.2-.1.3 0L8.8 6c.1 0 .1.1.2.1.1.1.1.2.1.3v14.1l5.4-3.1V3.3c0-.1 0-.2.1-.3 0-.1.1-.1.2-.2l3.5-2c.1-.1.2-.1.3 0 .1 0 .2.1.2.1l3.5 2c.1 0 .1.1.2.2 0 .1.1.2.1.3v14.1l5.4-3.1V5.3c0-.1 0-.2.1-.3 0-.1.1-.1.2-.2l3.5-2h.1c.1-.1.2-.1.3 0l3.5 2c-.1 0 0 .1 0 .1z" fill="#FF2D20"/></svg>
+            </div>
+            <span class="skill-name">Laravel</span>
+            <span class="skill-level" data-i18n="skill.advanced">Advanced</span>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon skill-icon-ci">
+              <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><circle cx="16" cy="16" r="15" fill="#DD4814"/><path d="M16 7c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9-4.03-9-9-9zm0 15.5c-3.59 0-6.5-2.91-6.5-6.5S12.41 9.5 16 9.5s6.5 2.91 6.5 6.5-2.91 6.5-6.5 6.5zm0-10.5c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4z" fill="#fff"/></svg>
+            </div>
+            <span class="skill-name">CodeIgniter 3</span>
+            <span class="skill-level" data-i18n="skill.advanced">Advanced</span>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="collage">
+        <div class="clip clip-1">
+          <span class="clip-kicker" data-i18n="collage.kicker1">Edisi Khusus</span>
+          <h3 class="clip-headline" data-i18n="collage.headline">Developer Lokal Bangun Produk Skala Global</h3>
+          <p class="clip-body" data-i18n="collage.body">"Detail kecil yang sering diabaikan justru yang paling diingat pengguna," ujarnya dalam wawancara singkat.</p>
+          <span class="clip-meta" data-i18n="collage.meta">Hal. 04 — Teknologi</span>
+        </div>
+        <div class="clip clip-2">
+          <span class="clip-stamp" data-i18n="collage.stamp">Terverifikasi</span>
+          <p class="clip-quote" data-i18n="collage.quote">"Saya percaya antarmuka yang baik tidak perlu berteriak untuk terlihat bagus."</p>
+        </div>
+        <div class="clip clip-3">
+          <span class="clip-kicker" data-i18n="collage.kicker3">Keahlian</span>
+          <ul class="clip-list">
+            <li>HTML / CSS / JavaScript</li>
+            <li>React &amp; Node.js</li>
+            <li>UI / UX Desain</li>
+            <li>Animasi Interaktif</li>
+          </ul>
+        </div>
+        <div class="clip clip-4 clip-photo">
+          <div class="clip-photo-frame">
+            <img src="../assets/6.jpeg" alt="Cuplikan momen kerja">
+          </div>
+          <span class="clip-caption" data-i18n="collage.caption">Sesi kerja, 2026</span>
+        </div>
+        <div class="tape tape-1"></div>
+        <div class="tape tape-2"></div>
+        <div class="tape tape-3"></div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <div class="projects-inner">
+      <p class="section-eyebrow" data-i18n="projects.eyebrow">Proyek</p>
+      <h2 class="section-title" data-i18n="projects.title">Beberapa Pekerjaan Terbaru</h2>
+
+      <div class="project-list">
+
+        <div class="project-item">
+          <div class="project-row" onclick="toggleProject(this.parentElement)">
+            <div class="project-left">
+              <span class="project-num">01</span>
+              <span class="project-name">Gym & Fitnes Aplication.</span>
+              <div class="project-tags">
+                <span class="ptag">Css</span>
+                <span class="ptag">Html</span>
+                <span class="ptag">Php</span>
+                <span class="ptag">Ajax</span>
+                <span class="ptag">Boostrap</span>
+                <span class="ptag" data-i18n="tag.analytic">Ci3</span>
+                <span class="ptag">My SQL</span>
+              </div>
+            </div>
+            <div class="project-right">
+              <span class="project-date">Jan 2026</span>
+              <svg class="project-chevron" width="18" height="18" viewBox="0 0 16 16" fill="none"><path d="M6 3L11 8L6 13" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+          </div>
+          <div class="project-detail">
+            <div class="project-detail-inner">
+              <p class="project-desc" data-i18n="project1.desc">Dashboard analitik real-time untuk tim operasional, dibangun dengan React dan WebSocket agar data selalu sinkron tanpa refresh.</p>
+              <a href="
+              
+              
+              https://github.com/fahanganteng12-collab/fitness" target="_blank" rel="noopener" class="project-visit">
+                <span data-i18n="project.visit">Kunjungi situs</span>
+                <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H7M12 4V9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="project-row" onclick="toggleProject(this.parentElement)">
+            <div class="project-left">
+              <span class="project-num">02</span>
+              <span class="project-name">Perfume Store Website.</span>
+              <div class="project-tags">
+                <span class="ptag">Css</span>
+                <span class="ptag">Html</span>
+                <span class="ptag">Php</span>
+                <span class="ptag">Ajax</span>
+                <span class="ptag">Boostrap</span>
+                <span class="ptag" data-i18n="tag.analytic">Ci3</span>
+              </div>
+            </div>
+            <div class="project-right">
+              <span class="project-date">Sep 2024</span>
+              <svg class="project-chevron" width="18" height="18" viewBox="0 0 16 16" fill="none"><path d="M6 3L11 8L6 13" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+          </div>
+          <div class="project-detail">
+            <div class="project-detail-inner">
+              <p class="project-desc" data-i18n="project2.desc">Toko online dengan checkout satu halaman, dirancang untuk mempercepat proses belanja di perangkat mobile.</p>
+              <a href="https://github.com/fahanganteng12-collab/perfume" target="_blank" rel="noopener" class="project-visit">
+                <span data-i18n="project.visit">Kunjungi situs</span>
+                <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H7M12 4V9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="contact-inner">
+      <div class="contact-text">
+        <p class="section-eyebrow" data-i18n="contact.eyebrow">Kontak</p>
+        <h2 class="section-title" data-i18n="contact.title">Mari Buat Sesuatu</h2>
+        <p class="contact-desc" data-i18n="contact.desc">Ada proyek, ide, atau sekadar mau ngobrol soal desain? Isi form di samping atau hubungi langsung lewat kanal di bawah.</p>
+        <div class="contact-channels">
+          <a href="mailto:halo@fahanzulfi.com" class="contact-channel">
+            <span class="channel-label">Email</span>
+            <span class="channel-value">halo@fahanzulfi.com</span>
+          </a>
+          <a href="https://instagram.com/" target="_blank" rel="noopener" class="contact-channel">
+            <span class="channel-label">Instagram</span>
+            <span class="channel-value">@fahanzulfi</span>
+          </a>
+          <a href="https://github.com/" target="_blank" rel="noopener" class="contact-channel">
+            <span class="channel-label">GitHub</span>
+            <span class="channel-value">github.com/fahanzulfi</span>
+          </a>
+        </div>
+      </div>
+
+      <form id="contactForm" class="contact-form">
+        <div class="form-row">
+          <label for="user_name" data-i18n="form.name">Nama</label>
+          <input type="text" id="user_name" name="user_name" data-i18n-placeholder="form.namePlaceholder" placeholder="Nama kamu" required>
+        </div>
+        <div class="form-row">
+          <label for="user_email">Email</label>
+          <input type="email" id="user_email" name="user_email" placeholder="kamu@email.com" required>
+        </div>
+        <div class="form-row">
+          <label for="message" data-i18n="form.message">Pesan</label>
+          <textarea id="message" name="message" rows="5" data-i18n-placeholder="form.messagePlaceholder" placeholder="Ceritakan proyekmu..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary form-submit">
+          <span id="submitText" data-i18n="form.submit">Kirim Pesan</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <p class="form-status" id="formStatus"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <span>© <span id="year"></span> Fahan Zulfi</span>
+  <span data-i18n="footer.built">Dibangun dengan HTML, CSS &amp; JavaScript</span>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
